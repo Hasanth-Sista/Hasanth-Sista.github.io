@@ -5,11 +5,18 @@ export default class About extends Component {
   render() {
     return (
       <div className="about">
-        <div className="about-text ">About Me<hr/></div>
+        <div className="about-text">About Me<hr/></div>
         <div>
-            I am having 2.5 years of experience working in Information Technology industry. I am working as a Software Developer in waveXchange implementing web application using MEAN stack and AWS. I have worked at ARC International during Summer 2018 as an IT Intern implementing web applications using Symfony, Java and data warehousing using SQL Data Tools, Power BI and Microsoft products. My previous work experience was as a Systems Engineer at Infosys Limited, developing products and providing services as a full stack web developer using Java Enterprise Edition and worked on Business Intelligence tools in SAP BW and BEx Explorer.    
-            Currently, I am a master's student in Computer Science at The University of Texas at Dallas and looking for full time opportunities involving new career challenges.
-            My specialties include MEAN Stack, Python, Java Enterprise Edition(Hibernate, Spring) and Symfony.
+            I have over 4 years of experience as a software engineer, and have worked at both small startups and 
+            large organizations. While I'm a proficient full-stack developer, my expertise is in building 
+            scalable backend services and customer experiences.
+        </div>
+        <div className="margin-top"></div>
+        <div>    
+            I love building things. While hard engineering problems are often intrinsically fun to tackle, I'm most 
+            attracted to solving real customer problems with a business justification. I'm looking for a senior 
+            software engineer role where I can take on
+            collaborative team leadership responsibilites, and gain experience with architecture and project management.
         </div>
       </div>
     )
