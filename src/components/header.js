@@ -18,8 +18,7 @@ export default class Header extends Component {
 
             <a href="mailto:hasanthsista1993@gmail.com"><button className="navbar-contact">Contact Me</button></a>
             
-            
-            <a href="Resume.pdf" target="_blank" download><button className="navbar-contact">Resume</button></a>
+            <a href={require('./Resume.pdf')} target="_blank" type="application/pdf"><button className="navbar-contact">Resume</button></a>
             
         </div>
         <div className="header">
