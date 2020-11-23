@@ -9,6 +9,7 @@ export default class Main extends Component {
       <React.Fragment>
         <About/>
         <Projects/>
+        <div className="margin-top"></div>
       </React.Fragment>
     )
   }
