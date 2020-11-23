@@ -7,9 +7,10 @@ export default class Main extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="main">
         <About/>
         <Projects/>
-        <div className="margin-top"></div>
+        </div>
       </React.Fragment>
     )
   }
